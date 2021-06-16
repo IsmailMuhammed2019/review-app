@@ -27,6 +27,23 @@ main{
     flex-direction: column;
 }
 
-.
+.title {
+    margin-bottom: 15px;
+}
+
+.title-text {
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.underline {
+    margin: 20px auto;
+    width: 100px;
+    background: skyblue;
+    height: 5px;
+}
+
+
 
 
