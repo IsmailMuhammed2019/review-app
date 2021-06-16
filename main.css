@@ -54,13 +54,17 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    position: relative;
 }
 
 .image{
-    border-radius: 50px;
+    border-radius: 50%;
     width: 300px;
     height: 300px;
     margin: 30px 0 20px 0;
+    position: relative;
+    background: skyblue;
+    
 }
 
 .image > img {
@@ -68,9 +72,30 @@ main{
     width: 300px;
     height: 300px;
     border-radius: 55%;
+    position: absolute;
+    top: 10px;
+    left: -10px;
 }
 
-.qoute {
+.quote {
+    position: relative;
+    left: -136px;
+    top: -255px;
+    padding: 20px;
+    border-radius: 50%;
+    background: skyblue;
+    font-size: xx-large;
+    color: white;
+}
+
+.info{
+    position: relative;
+    top: -66px;
+    text-align: center;
+}
+
+#author{
+    font-family: cursive;
 }
 
 
