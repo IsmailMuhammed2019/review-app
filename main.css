@@ -11,4 +11,22 @@ body {
 
 }
 
+main{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;        
+}
+
+.container {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.
+
 
