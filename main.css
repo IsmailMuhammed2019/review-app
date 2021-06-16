@@ -44,6 +44,19 @@ main{
     height: 5px;
 }
 
+.review{background: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
 
 
 
