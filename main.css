@@ -11,18 +11,4 @@ body {
 
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.review{
-    width: 800px;
-    background: white;
-    height: 700px;
-    border-radius: 5px;
-    padding: 20px;
-}
 
