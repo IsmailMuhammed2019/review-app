@@ -92,12 +92,48 @@ main{
     position: relative;
     top: -66px;
     text-align: center;
+    color: skyblue;
 }
 
 #author{
     font-family: cursive;
 }
 
+#job{
+    margin: 10px;
+    font-style:italic;
+}
 
+#comment {
+    color: black;
+}
+
+.control {
+    color: skyblue;
+    margin-top: -40px;
+    margin-bottom: 20px;
+
+}
+
+
+.control > button {
+    padding: 5px 10px;
+    margin: 0 10px 0 10px;
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    width: 50px;
+}
+.control > button:hover {
+    color: black;
+    background: skyblue;
+    border: 0 solid skyblue;
+    border-radius: 5px;
+}
+
+#random {
+    margin-top: 20px;
+    width: 120px; 
+}
 
 
