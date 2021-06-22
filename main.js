@@ -55,3 +55,30 @@ showperson = () => {
     comment.textContent = item.text;
 };
 
+rightButton.addEventListener('click', () => {
+    currentItem ++;
+    if(currentItem > reviews.length - 1){
+        currentItem = 0;
+    }
+    showperson();
+});
+
+leftButton.addEventListener('click', () => {
+    currentItem--;
+    if(currentItem < 0){
+        currentItem = reviews.length -1;
+    }
+    showperson();
+});
+
+random.addEventListener('click', () =>{
+    currentItem = randomNumber();
+    showperson();
+    console.log(currentItem);
+});
+
+randomNumber = () =>{
+    let number = Math.floor(Math.random() * reviews.length);
+    return number;
+};
+
