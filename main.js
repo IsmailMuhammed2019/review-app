@@ -74,7 +74,6 @@ leftButton.addEventListener('click', () => {
 random.addEventListener('click', () =>{
     currentItem = randomNumber();
     showperson();
-    console.log(currentItem);
 });
 
 randomNumber = () =>{
