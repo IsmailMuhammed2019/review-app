@@ -28,3 +28,30 @@ const reviews = [
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sunt, molestiae earum suscipit quaerat eligendi. Reiciendis autem aliquid incidunt facere."
     }
 ]
+
+ let author = document.querySelector('#author');
+ let job = document.querySelector('#job');
+ let comment = document.querySelector('#comment');
+ let img = document.querySelector('#person-img');
+
+ let leftButton = document.querySelector('#left');
+ let rightButton = document.querySelector('#right');
+ let random = document.querySelector('#random');
+
+let currentItem =1;
+
+
+window.addEventListener('DOMContentLoaded', () => {
+    showperson();
+
+});
+
+showperson = () => {
+    let item = reviews[currentItem];
+
+    img.src = item.img;
+    author.textContent = item.name;
+    job.textContent = item.job;
+    comment.textContent = item.text;
+};
+
